@@ -2,6 +2,10 @@
     margin: auto;
     padding: auto;
     /* background-color: whitesmoke; */
+    /* scroll-behavior: smooth; */
+}
+html{
+    scroll-behavior: ease-in-out;
 }
 .head{
     height: 150px;
@@ -106,7 +110,7 @@ span.slogen{
 }
 .aboutcompany{
     height: 500px;
-    background-color:darkcyan;
+    background:darkcyan;
 }
 .aboutcompany h1{
     color: white;
@@ -129,5 +133,15 @@ span.slogen{
     position: relative;
     right: 300px;
     top: 30px;
-
+    font-size: 20px;
 }
+.aboutcompany .photo{
+    height: 400px;
+    width: 550px;
+    position: relative;
+    left: 750px;
+    bottom: 300px;
+    border-radius: 10px;
+    transition: ease-in-out;
+}
+
