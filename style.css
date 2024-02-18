@@ -59,7 +59,7 @@ span.slogen{
     font-style: bold;
 }
 .discription{
-    height: 400px;
+    height: 600px;
     width: 100vw;
     background: url("munici.webp");
     background-color: gray;
@@ -75,10 +75,10 @@ span.slogen{
     /* z-index: 1; */
     /* height: 400px; */
     left: 30px;
-    bottom: 400px;
+    bottom: 600px;
 }
 .bg{
-    height: 400px;
+    height: 600px;
     background-color: rgba(0, 0, 0, 0.596);
     position: relative;
     /* z-index: 0; */
@@ -86,9 +86,48 @@ span.slogen{
 }
 .discription h3{
     position: relative;
-    bottom: 400px;
+    bottom: 600px;
     color: white;
     font-size: 30px;
     left: 35px;
     font-family: 'Times New Roman', Times, serif;
+}
+.discription .joinus{
+    height: 66px;
+    width: 200px;
+    position: relative;
+    bottom: 550px;
+    left: 35px;
+    border-radius: 20px;
+    background-color:cadetblue;
+    color: white;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.aboutcompany{
+    height: 500px;
+    background-color:darkcyan;
+}
+.aboutcompany h1{
+    color: white;
+    position: relative;
+    top: 20px;
+    left: 30px;
+    font-size: 50px;
+    font-family: monospace;
+}
+.aboutcompany .p1{
+    position: relative;
+    left: 30px;
+    top: 30px;
+    color: white;
+    font-size: 20px;
+}
+.aboutcompany .p2{
+    width: 50%;
+    color: white;
+    position: relative;
+    right: 300px;
+    top: 30px;
+
 }
